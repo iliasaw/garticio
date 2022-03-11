@@ -140,7 +140,7 @@ let spamtext = document.querySelector('#spamtext input');
 let kicktext = document.querySelector('#kickplayernick input');
 let kickbutton = document.querySelector('#kickpalyer');
 
-let scripturl = "https://github.com/anonimbiri/gartic.io-bot/raw/main/script/Gartic%20bot%20control.user.js";
+let scripturl = "https://github.com/iliasaw/garticio/raw/main/script/Gartic%20bot%20control.user.js";
 
 download.addEventListener("click", function () {
 	window.open(scripturl).close();
@@ -311,7 +311,7 @@ setInterval(function() {  if(spam == true){
   item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "឵" + spamtext.value}, '*')
 ); s_id = 4;}
 	else if(s_id == 4){document.querySelectorAll('iframe').forEach( item =>
-  item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "github.com/anonimbiri"}, '*')
+  item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "឵" + spamtext.value}, '*')
 ); s_id = 1;} } 
 }, 3000);
 
@@ -368,7 +368,7 @@ iziToast.success({
     message: 'Script loaded',
 	buttons: [
         ['<button>Open Source Code</button>', function (instance, toast) {
-            window.open("https://github.com/anonimbiri/gartic.io-bot");
+            window.open("https://github.com/iliasaw/garticio");
         }, true],],
 });
 }else{
