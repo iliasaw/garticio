@@ -8,7 +8,7 @@ document.body.innerHTML += `
     <div class="two fields">
 	<div class="field" id="botname">
         <label>Имя ботов</label>
-        <div class="ui large labeled input"><input type="text" value="anonimbiri" placeholder="Nickname" maxlength="14" spellcheck="false" data-ms-editor="true"></div>
+        <div class="ui large labeled input"><input type="text" value="iliasaw" placeholder="Nickname" maxlength="14" spellcheck="false" data-ms-editor="true"></div>
       </div>
       <div class="field">
         <label>Код комнаты</label>
@@ -25,46 +25,46 @@ document.body.innerHTML += `
 <div class="ui fluid selection profil dropdown" tabindex="0">
   <input type="hidden" name="user">
   <i class="dropdown icon" tabindex="0"><div class="menu" tabindex="-1"></div></i>
-  <div class="text"><img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/0.svg">Default</div>
+  <div class="text"><img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/0.svg">По умолчанию</div>
   <div class="menu transition hidden" tabindex="-1">
   <div data-value="0" class="item active selected">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/0.svg">Default</div><div data-value="1" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/1.svg">Man 1</div><div data-value="2" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/2.svg">Man 2</div><div data-value="3" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/3.svg">Man 3</div><div data-value="4" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/4.svg">Man 4</div><div data-value="5" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/5.svg">Man 5</div><div data-value="6" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/6.svg">Man 6</div><div data-value="7" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/7.svg">Man 7</div><div data-value="8" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/8.svg">Man 8</div><div data-value="9" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/9.svg">Man 9</div><div data-value="10" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/10.svg">Man 10</div><div data-value="11" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/11.svg">Man 11</div><div data-value="12" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/12.svg">Man 12</div><div data-value="13" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/13.svg">Man 13</div><div data-value="14" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/14.svg">Man 14</div><div data-value="15" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/15.svg">Man 15</div><div data-value="16" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/16.svg">Man 16</div><div data-value="17" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/17.svg">Man 17</div><div data-value="18" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/18.svg">Man 18</div><div data-value="19" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/19.svg">Girl 1</div><div data-value="20" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/20.svg">Girl 2</div><div data-value="21" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/21.svg">Girl 3</div><div data-value="22" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/22.svg">Girl 4</div><div data-value="23" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/23.svg">Girl 5</div><div data-value="24" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/24.svg">Girl 6</div><div data-value="25" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/25.svg">Girl 7</div><div data-value="26" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/26.svg">Girl 8</div><div data-value="27" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/27.svg">Girl 9</div><div data-value="28" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/28.svg">Girl 10</div><div data-value="29" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/29.svg">Girl 11</div><div data-value="30" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/30.svg">Girl 12</div><div data-value="31" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/31.svg">Girl 13</div><div data-value="32" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/32.svg">Girl 14</div><div data-value="33" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/33.svg">Gril 15</div><div data-value="34" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/34.svg">Gril 16</div><div data-value="35" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/35.svg">Gril 17</div><div data-value="36" class="item">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/36.svg">Gril 18</div></div>
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/0.svg">По умолчанию</div><div data-value="1" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/1.svg">Мужчина 1</div><div data-value="2" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/2.svg">Мужчина 2</div><div data-value="3" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/3.svg">Мужчина 3</div><div data-value="4" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/4.svg">Мужчина 4</div><div data-value="5" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/5.svg">Мужчина 5</div><div data-value="6" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/6.svg">Мужчина 6</div><div data-value="7" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/7.svg">Мужчина 7</div><div data-value="8" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/8.svg">Мужчина 8</div><div data-value="9" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/9.svg">Мужчина 9</div><div data-value="10" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/10.svg">Мужчина 10</div><div data-value="11" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/11.svg">Мужчина 11</div><div data-value="12" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/12.svg">Мужчина 12</div><div data-value="13" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/13.svg">Мужчина 13</div><div data-value="14" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/14.svg">Мужчина 14</div><div data-value="15" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/15.svg">Мужчина 15</div><div data-value="16" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/16.svg">Мужчина 16</div><div data-value="17" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/17.svg">Мужчина 17</div><div data-value="18" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/18.svg">Мужчина 18</div><div data-value="19" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/19.svg">Девушка 1</div><div data-value="20" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/20.svg">Девушка 2</div><div data-value="21" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/21.svg">Девушка 3</div><div data-value="22" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/22.svg">Девушка 4</div><div data-value="23" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/23.svg">Девушка 5</div><div data-value="24" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/24.svg">Девушка 6</div><div data-value="25" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/25.svg">Девушка 7</div><div data-value="26" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/26.svg">Девушка 8</div><div data-value="27" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/27.svg">Девушка 9</div><div data-value="28" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/28.svg">Девушка 10</div><div data-value="29" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/29.svg">Девушка 11</div><div data-value="30" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/30.svg">Девушка 12</div><div data-value="31" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/31.svg">Девушка 13</div><div data-value="32" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/32.svg">Девушка 14</div><div data-value="33" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/33.svg">Девушка 15</div><div data-value="34" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/34.svg">Девушка 16</div><div data-value="35" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/35.svg">Девушка 17</div><div data-value="36" class="item">
+        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/36.svg">Девушка 18</div></div>
   </div>
   </div>
 	
