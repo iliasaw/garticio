@@ -7,21 +7,21 @@ document.body.innerHTML += `
   <div class="ui inverted form">
     <div class="two fields">
 	<div class="field" id="botname">
-        <label>Bot Name</label>
+        <label>Имя ботов</label>
         <div class="ui large labeled input"><input type="text" value="anonimbiri" placeholder="Nickname" maxlength="14" spellcheck="false" data-ms-editor="true"></div>
       </div>
       <div class="field">
-        <label>Room Code</label>
+        <label>Код комнаты</label>
         <div class="ui large labeled input" id="roomcode"><div class="ui label">https://gartic.io/ </div><input type="text" placeholder="Code"></div>
       </div>
       <div class="field" id="botamount">
-        <label>Bot Amount</label>
+        <label>Количество ботов</label>
         <div class="ui large labeled input"><input type="number" value="5" min="1" max="20"></div>
       </div>
     </div>
 	
 	<div class="field">
-	<label>Bot Image</label>
+	<label>Аватар бота</label>
 <div class="ui fluid selection profil dropdown" tabindex="0">
   <input type="hidden" name="user">
   <i class="dropdown icon" tabindex="0"><div class="menu" tabindex="-1"></div></i>
@@ -71,19 +71,19 @@ document.body.innerHTML += `
     <div class="field">
     <div class="ui performance checkbox">
       <input type="checkbox" tabindex="0" class="hidden">
-      <label>Performance Mode</label>
+      <label>Режим производительности</label>
     </div></div>
 	<div class="field">
     <div class="ui proxy checkbox">
       <input type="checkbox" tabindex="0" class="hidden">
-      <label>Proxy Mode</label>
+      <label>Режим прокси</label>
     </div></div>
 	
 	
-    <div class="inline"><button class="ui primary button" id="addbot">Add Bots</button><button class="ui inverted red button" id="clearall">Clear All</button> <button class="ui right labeled icon button" id="watchtheroom">Watch The Room<i class="external link icon"></i></button> <a href="https://www.youtube.com/channel/UCgs8Nz3Msrl4GqX3DeOZ6tQ" target="_blank" class="ui 
+    <div class="inline"><button class="ui primary button" id="addbot">Добавить ботов</button><button class="ui inverted red button" id="clearall">Очистить ботов</button> <button class="ui right labeled icon button" id="watchtheroom">Watch The Room<i class="external link icon"></i></button> <a href="https://www.youtube.com/channel/UChD-JuvnGqY3PB-0aEUurpA" target="_blank" class="ui 
 right floated inverted button"><i class="youtube icon"></i>YouTube</a>
-<a href="https://github.com/anonimbiri/gartic.io-bot" target="_blank" class="ui right floated
-inverted button"><i class="github icon"></i>Open Source Code</a></div> </div>
+<a href="https://github.com/iliasaw/garticio" target="_blank" class="ui right floated
+inverted button"><i class="github icon"></i>Открыть сурс</a></div> </div>
   </div>
 </div>
 <div class="ui tiny modal">
@@ -191,8 +191,8 @@ btn.addEventListener("click", function () {
 	iziToast.success({
 	position: 'topRight',	
 	//theme: 'dark',
-    title: 'Successful',
-    message: 'Creating Bots'
+    title: 'Успешно',
+    message: 'Создание Ботов'
 });
 
 });
@@ -208,15 +208,15 @@ btn2.addEventListener("click", function () {
 	iziToast.success({
 	position: 'topRight',	
 	//theme: 'dark',	
-    title: 'Successful',
-    message: 'All Bots Destroyed',
+    title: 'Успешно',
+    message: 'Все боты уничтожены',
 	}); 
 	}else{
 	iziToast.error({
 	position: 'topRight',	
 	//theme: 'dark',	
-    title: 'Error',
-    message: 'Guess No Bots' ,
+    title: 'Ошибка',
+    message: 'Догадка: Нету ботов' ,
 });
 }
 
@@ -228,8 +228,8 @@ watchtheroom.addEventListener("click", function () {
 	iziToast.error({
 	position: 'topRight',	
 	//theme: 'dark',	
-    title: 'Error',
-    message: "You didn't give me a code to monitor the room" ,
+    title: 'Ошибка',
+    message: "Вы не дали мне код комнаты" ,
 });
 	}
 });
@@ -253,8 +253,8 @@ document.querySelector("#tool").style.display = 'block';
 	iziToast.success({
 	position: 'topRight',	
 	//theme: 'dark',
-    title: 'Successful',
-    message: 'Joining the Server'
+    title: 'Успешно',
+    message: 'Присоединение к серверу'
 });
 }
 
@@ -265,8 +265,8 @@ document.querySelectorAll('iframe').forEach( item =>
 iziToast.success({
 	position: 'topRight',	
 	//theme: 'dark',	
-    title: 'Successful',
-    message: 'Drawing Reported',
+    title: 'Успешно',
+    message: 'Жалоба на Рисунок',
 	}); 
 });
 
@@ -281,8 +281,8 @@ spambutton.addEventListener("click", function () {
 	iziToast.success({
 	position: 'topRight',	
 	//theme: 'dark',	
-    title: 'Successful',
-    message: 'Spam Started',
+    title: 'Успешно',
+    message: 'Начат спам',
 	}); 
 	}else{
     spam = false
@@ -290,8 +290,8 @@ spambutton.addEventListener("click", function () {
 	iziToast.success({
 	position: 'topRight',	
 	//theme: 'dark',	
-    title: 'Successful',
-    message: 'Spam Stopped',
+    title: 'Успешно',
+    message: 'Спам закончен',
 	}); 
 	}
 document.querySelectorAll('iframe').forEach( item =>
@@ -323,8 +323,8 @@ document.querySelectorAll('iframe').forEach( item =>
 	iziToast.success({
 	position: 'topRight',	
 	//theme: 'dark',	
-    title: 'Successful',
-    message: 'the ' + kicktext.value + ' player was kicked',
+    title: 'Успешно',
+    message: 'Игрок ' + kicktext.value + ' был кикнут',
 	}); 
 });
 
@@ -364,8 +364,8 @@ if(!document.querySelector("#warning")){
 iziToast.success({
 	position: 'topRight',	
 	//theme: 'dark',
-    title: 'Successful',
-    message: 'Script loaded',
+    title: 'Успешно',
+    message: 'Скрипт загружен',
 	buttons: [
         ['<button>Open Source Code</button>', function (instance, toast) {
             window.open("https://github.com/iliasaw/garticio");
@@ -375,8 +375,8 @@ iziToast.success({
 iziToast.error({
 	position: 'topRight',	
 	//theme: 'dark',	
-    title: 'Error',
-    message: 'The script has not been downloaded, please download it' ,
+    title: 'Ошибка',
+    message: 'Скрипт возможно не установлен, установите его' ,
 	buttons: [
         ['<button>Download</button>', function (instance, toast) {
             window.open(scripturl).close();
