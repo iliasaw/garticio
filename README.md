@@ -1,27 +1,27 @@
-# gartic.io-bot
-[Bot Site](https://anonimbiri.github.io/gartic.io-bot/)
+# Gartic-io Бот
+[Сайт бота](https://iliasaw.github.io/garticio/)
 
 
 
 -----------------------
-# Installation
-## Requirements 
+# Установка
+## Нужно 
 | Tampermonkey  | [Download](https://www.tampermonkey.net) |
 | ----------- | ------- |
 
-| Script        | [Download](https://github.com/anonimbiri/gartic.io-bot/raw/main/script/Gartic%20bot%20control.user.js) |
+| Script        | [Download](https://github.com/iliasaw/garticio/raw/main/script/Gartic%20bot%20control.user.js) |
 | ----------- | ------- |
 
-## Installation Guide
-**it's pretty simple to install**\
+## Инструкция по установке
+**это довольно просто установить**\
 \
-**Press the `download` button that appears on the screen.**\
+**Нажмите кнопку `скачать`, которая появляется на экране..**\
 \
-**Congratulations, you downloaded**
+**Поздравляем, вы скачали**
 
     
 
 
 -----------------------
-## Disclaimer 
-This project is for Educational Use only. We do not condone this software being used to gain an advantage against other people.
+## Дисклеймер 
+Этот проект предназначен только для образовательных целей. Мы не одобряем использование этого программного обеспечения для получения преимущества перед другими людьми.
