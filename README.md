@@ -6,10 +6,10 @@
 -----------------------
 # Установка
 ## Нужно 
-| Tampermonkey  | [Download](https://www.tampermonkey.net) |
+| Tampermonkey  | [Скачать](https://www.tampermonkey.net) |
 | ----------- | ------- |
 
-| Script        | [Download](https://github.com/iliasaw/garticio/raw/main/script/Gartic%20bot%20control.user.js) |
+| Script        | [Скачать](https://github.com/iliasaw/garticio/raw/main/script/Gartic%20bot%20control.user.js) |
 | ----------- | ------- |
 
 ## Инструкция по установке
