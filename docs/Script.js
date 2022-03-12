@@ -104,15 +104,15 @@ inverted button"><i class="github icon"></i>Открыть сурс</a></div> </
   </div>
 </div>
 <div class="ui inverted segment" id="tool" style="display: none;"><div class="ui inverted form ">
-<div class="inline fields"><div class="field"><label>Report:</label><button class="ui primary button" id="reportdraw">Report Draw</button></div></div><div class="inline fields"><label>Spam:</label><div class="field"><div class="ui selection spam dropdown">
+<div class="inline fields"><div class="field"><label>Репорт:</label><button class="ui primary button" id="reportdraw">Жалобу на рисунок</button></div></div><div class="inline fields"><label>Спам:</label><div class="field"><div class="ui selection spam dropdown">
   <input type="hidden" name="gender">
   <i class="dropdown icon"></i>
-  <div class="text">Chat</div>
+  <div class="text">Чат</div>
   <div class="menu">
     <div class="item active selected" data-value="1">Chat</div>
-    <div class="item" data-value="0">Answer</div>
+    <div class="item" data-value="0">Ответ</div>
   </div></div>
-</div><div class="field"><div class="ui labeled input" id="spamtext"><input type="text" value="anonimbiri" placeholder="Spam text" maxlength="99" spellcheck="false" data-ms-editor="true"></div></div><div class="field"><button class="ui primary compact labeled icon button" id="startspam"><i class="play icon"></i> Start Spam</button></div></div><div class="inline fields"><div class="field"><label>Kick:</label><div class="ui labeled input" id="kickplayernick"><input type="text" value="User" placeholder="Username" maxlength="18" spellcheck="false" data-ms-editor="true"></div></div><div class="field"><button class="ui primary button" id="kickpalyer">Kick Player</button></div></div></div></div>
+</div><div class="field"><div class="ui labeled input" id="spamtext"><input type="text" value="anonimbiri" placeholder="Текст спама" maxlength="99" spellcheck="false" data-ms-editor="true"></div></div><div class="field"><button class="ui primary compact labeled icon button" id="startspam"><i class="play icon"></i> Начать Спам</button></div></div><div class="inline fields"><div class="field"><label>Кик:</label><div class="ui labeled input" id="kickplayernick"><input type="text" value="User" placeholder="Username" maxlength="18" spellcheck="false" data-ms-editor="true"></div></div><div class="field"><button class="ui primary button" id="kickpalyer">Кикнуть Игрока</button></div></div></div></div>
 
 <div class="ui basic modal">
   <div class="content">
