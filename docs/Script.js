@@ -80,7 +80,7 @@ document.body.innerHTML += `
     </div></div>
 	
 	
-    <div class="inline"><button class="ui primary button" id="addbot">Добавить ботов</button><button class="ui inverted red button" id="clearall">Очистить ботов</button> <button class="ui right labeled icon button" id="watchtheroom">Watch The Room<i class="external link icon"></i></button> <a href="https://www.youtube.com/channel/UChD-JuvnGqY3PB-0aEUurpA" target="_blank" class="ui 
+    <div class="inline"><button class="ui primary button" id="addbot">Добавить ботов</button><button class="ui inverted red button" id="clearall">Очистить ботов</button> <button class="ui right labeled icon button" id="watchtheroom">Смотреть за комнатой<i class="external link icon"></i></button> <a href="https://www.youtube.com/channel/UChD-JuvnGqY3PB-0aEUurpA" target="_blank" class="ui 
 right floated inverted button"><i class="youtube icon"></i>YouTube</a>
 <a href="https://github.com/iliasaw/garticio" target="_blank" class="ui right floated
 inverted button"><i class="github icon"></i>Открыть сурс</a></div> </div>
